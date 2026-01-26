@@ -1,51 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pet adoption</title>
-    <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-    <h1 id="website"><i>adoptme.com</i></h1>
-    <h1>Adopt a <span>Pet </span>Today</h1>
-    <br/><br/>
-    <div class="container">
-    <div class="card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThaxssO0WH3HbsRXXGK62SEnh8c0bb6PygJg&s" alt="jerry" class="image" />
-        <h3>Meet Jerry</h3>
-        <p >
-           Jerry is a friendly, playful, and loving dog who is looking for a warm and caring home. 
-    He has a gentle nature and enjoys being around people.
-    Jerry loves going on walks, playing with toys, and getting lots of belly rubs.
-    His bright eyes and wagging tail make everyone smile instantly.
-     He is loyal, intelligent, and quick to bond with anyone who shows him affection.
-     Jerry gets along well with families, kids, and even other pets. 
-    Whether you need a companion for daily walks or a furry friend to brighten your day,
-    Jerry will be the perfect addition to your family. 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Chapter2</title>
+  </head>
+  <body>
+    <header>
+        <h1>Quora 
+            <button id="login">Log in</button>
+            <button id="signup">Sign up</button>
+        </h1>
+        <div>
+            <input type="text" placeholder="username">
+            <input type="password" placeholder="password">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/following">Following</a></li>
+                <li><a href="/answer">Answer</a></li>
+                <li><a href="/spaces">Spaces</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <p class="post">
+        Adam &nbsp;&nbsp;
+        <a class="follow" href="/adam">Follow /abc</a></span>
         </p>
-     </div>
-    <!--cat ke liye-->
-   <div class="card">
+        <h3>What is the highest salary for a spacex engineer?</h3>
+        <span>
+            <button class="upvote">+upvote</button>
+            <button>answer</button>
+        </span>
+        <hr />
 
-   
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-bknXtrXhiK8JJGc7X96r5ED030CTUghqjg&s" alt="tom" class="image"/>
-        <h3>Meet Tom</h3>
-        <p>
-           Tom is a gentle, friendly, playful dog who is ready to find his forever home. 
-           He loves being around people and enjoys every bit of attention he gets. 
-           With his soft eyes and cheerful personality, Tom can brighten anyone’s day.
-Tom loves going for walks, exploring new places, and playing with his favorite toys.
- He is calm, well-behaved, and gets along wonderfully with families, children, and even other pets.
-  Whether you're looking for a loyal companion or a fun-loving friend, Tom is the perfect match.
+        <p class="post">
+        Bob &nbsp;&nbsp;
+        <a class="follow" href="/bob">Follow xyz</a>
         </p>
-   </div>
+        <h3>What is the syllabus for JEE 2024?</h3>
+        <span>
+            <button class="upvote">+upvote</button>
+            <button>answer</button>
+        </span>
+        <hr />
 
-   
-    </div>
+        <p class="post">
+        Catlyn &nbsp;&nbsp;&nbsp;&nbsp;
+        <a class="follow" href="/catlyn">Follow pqr</a>
+        </p>
+        <h3>Why is the sky blue?</h3>
+        <span>
+            <button class="upvote">+upvote</button>
+            <button>answer</button>
+        </span>
+        <hr />
 
-
-
-    
-</body>
+        <p class="post">
+            Dan &nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="follow" href="/dan">Follow pqr</a>
+            </p>
+            <h3>Why is the sky blue?</h3>
+            <span>
+                <button class="upvote">+upvote</button>
+                <button>answer</button>
+            </span>
+            <hr />
+    </main>
+    <script src="app.js"></script>
+  </body>
 </html>

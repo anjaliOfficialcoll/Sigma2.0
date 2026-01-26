@@ -1,40 +1,21 @@
-*{
-    font-family: 'Courier New';
-}
-h3{
-    color:rgb(189, 9, 9)
-}
-h1{
-    color:#b92b27;
-}
-#login{
-    background-color: rgb(154, 43, 246);
-}
-#signup{
-    background-color: #b92b27;
-}
-.upvote{
-    background-color: green;
-    color:white;
-}
-.post a{
-    color:purple;
-    background-color: yellow;
-}
-p+h3{
-    text-decoration:underline;
-}
+/* #ob{
+    width: 300px;
+    height: 150px;
+    background-color: grey;
+    border:5px dotted black;
+    margin:20px 1em 40px 2em;
+    padding: 1em;
+   
+} */
+/* .c{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+} */
 
-.upvote+button{
-    background-color: cornflowerblue;
-    color: aliceblue;
-}
-div>input{
-   background-color: cornsilk;
-}
-input[type="text"]{
-    color: brown;
-}
-input[type="password"]{
-    color: rgb(158, 232, 0);
+ul{
+    display: inline;
 }

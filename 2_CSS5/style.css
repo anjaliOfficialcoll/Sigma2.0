@@ -1,0 +1,24 @@
+.outerbox {
+    height: 400px;
+    width:400px;
+    background-color: rgb(193, 226, 255);
+    border: 2px solid rgb(0, 108, 108);
+    border-radius:10px;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+#innerbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgb(141, 137, 137);
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    border-radius: 10px;
+    
+}

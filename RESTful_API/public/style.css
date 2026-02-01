@@ -1,0 +1,19 @@
+h1{
+    color:maroon;
+}
+.div1{
+    background-color: rgb(255, 255, 180);
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.user{
+    font-style: italic;
+    color: blue;
+}
+.content{
+    color: black;
+    
+
+
+}

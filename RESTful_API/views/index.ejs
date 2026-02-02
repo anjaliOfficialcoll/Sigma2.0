@@ -8,13 +8,18 @@
 </head>
 <body>
     <h1>Quora posts</h1>
-    <% for(post of posts){ %>
+    <% for (const post of posts) { %>
         <div class="div1">
             <h2 class="user">@<%= post.username %></h2>
         <p class="content"><%= post.content %></p>
         <hr>
         <a href="/posts/<%= post.id %>">View Details</a>
         <a href="/posts/<%= post.id %>/edit">Edit Details</a>
+        <br><br>
+        <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
+            <button>Delete Post</button>
+        </form>
+        
         </div>
         
     <% } %>

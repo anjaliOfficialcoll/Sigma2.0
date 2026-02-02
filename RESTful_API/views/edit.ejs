@@ -6,14 +6,23 @@
     <title>Edit Post</title>
 </head>
 <body>
-    <form action="/posts/<%= post.id %>?_method=PUT" method="post">
-        <input type="text" name="username" value="<%= post.username %>">
-        <br><br>
+    <h1>Edit Post</h1>
+    
+    <% if (!post) { %>
+        <p>Post not found.</p>
+    <% } else { %>
+        <p>Post id: <%= post.id %></p>
+        
+        <p>Post username: <%= post.username %></p>
         Comments:
-        <br>
-        <textarea name="content"><%= post.content %></textarea>
+        <br><br>
+        <form method="post" action="/posts/<%= post.id %>">
+            <textarea rows="10" cols="35" name="content"><%= post.content %></textarea><br>
         <button type="submit">Update Post</button>
-    </form>
+        </form>
+    <% } %>
+        
+    
     
 </body>
 </html>
